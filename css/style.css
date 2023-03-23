@@ -6,13 +6,56 @@
 .bg-lightgreen {
   background-color: #e6ede9;
 }
+
+body {
+  font: 62.5%;
+  font-family: "Shippori Mincho", serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.top-text {
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
 .jumbotron {
   background-image: url("../img/top/top-image1-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 600px;
+  max-width: 100%;
+  height: auto;
 }
+
+.fadeIn {
+  animation-name: fadeInAnime;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes fadeInAnime {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.topinfo {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 .heading {
   border-left: 6px solid #aaa;
   padding: 0 0 0 10px;
