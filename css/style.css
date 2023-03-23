@@ -12,24 +12,43 @@ body {
   font-family: "Shippori Mincho", serif;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .top-text {
-  color: white;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 .jumbotron {
-  background-image: url("../img/top/top-image1-1.jpg");
+  background-image: url("../img/top/top1-1.jpg");
+  /* animation: img_anime 16s ease infinite; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 100%;
-  height: auto;
+  height: 500px;
 }
+
+/* @keyframes img_anime {
+  0% {
+    background-image: url("../img/top/top-image1-1.jpg");
+  }
+  20% {
+    background-image: url("../img/top/top-image1-1.jpg");
+  }
+  35% {
+    background-image: url("../img/top/top-image2-1.jpg");
+  }
+  53% {
+    background-image: url("../img/top/top-image2-1.jpg");
+  }
+  68% {
+    background-image: url("../img/top/topimage0322_2.jpg");
+  }
+  85% {
+    background-image: url("../img/top/topimage0322_2.jpg");
+  }
+  100% {
+    background-image: url("../img/top/top-image1-1.jpg");
+  }
+} */
 
 .fadeIn {
   animation-name: fadeInAnime;
