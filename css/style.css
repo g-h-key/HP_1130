@@ -75,6 +75,45 @@ body {
   box-sizing: border-box;
 }
 
+.f_con {
+  padding-top: 12px;
+}
+
+.f_con_num {
+  font-size: 125%;
+}
+
+.f_con_link {
+  color: rgb(71, 71, 71);
+  text-decoration: none;
+}
+
+.f_con_cmnt {
+  font-size: 80%;
+  padding-left: 15%;
+}
+
+.f_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f_info_top {
+  margin: 0 44px 0 9px;
+  justify-content: center;
+}
+
+.f_info_logo {
+  width: 50%;
+  height: auto;
+  justify-content: center;
+}
+
+.f_info_text {
+  justify-content: space-between;
+}
+
 .heading {
   border-left: 6px solid #aaa;
   padding: 0 0 0 10px;
