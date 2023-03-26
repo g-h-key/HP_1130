@@ -18,7 +18,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url("../img/top/top1-1.jpg");
+  background-image: url("../img/top/top-image1-1.jpg");
   /* animation: img_anime 16s ease infinite; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,29 +89,44 @@ body {
 }
 
 .f_con_cmnt {
-  font-size: 80%;
+  font-size: 95%;
   padding-left: 15%;
 }
 
 .f_info {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .f_info_top {
-  margin: 0 44px 0 9px;
+  /* margin: 0 44px 0 9px; */
+  width: 30%;
+  display: flex;
   justify-content: center;
 }
 
 .f_info_logo {
   width: 50%;
   height: auto;
-  justify-content: center;
 }
 
 .f_info_text {
-  justify-content: space-between;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.f_info_sns {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.f_info_social {
+  width: 200px;
+  height: auto;
+  justify-content: center;
 }
 
 .heading {
